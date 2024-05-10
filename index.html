@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Google_page</title>
-
+    <link rel="stylesheet" href="css/style.css" />
     <link
       rel="stylesheet"
       href="https://site-assets.fontawesome.com/releases/v6.5.1/css/all.css"
@@ -13,56 +13,88 @@
   <body>
     <!-- *******Nav bar******* -->
     <header>
-      <div>
-        <a href=" ">Gmail</a>
-        <a href="">Images</a>
-        <i class="fa-solid fa-grid-round"></i> <i class="fa-solid fa-house"></i>
-        <img src="img/account.png" alt="" />
+      <div class="Nbar">
+        <div class="InNav">
+          <a href=" ">Gmail</a>
+          <a href="">Images</a>
+          <a href=""><i class="fa-solid fa-grid-round"></i></a>
+          <img src="img/account.png" alt="" />
+        </div>
       </div>
     </header>
     <!-- *******Google section******* -->
     <main>
-      <section>
-        <img src="img/google-white-logo-0-2048x2048.png" alt="" />
-        <!-- search -->
-        <form action="">
-          <input type="search" />
-          <i class="fa-regular fa-magnifying-glass"></i>
-          <img src="img/google_icon.svg" alt="" />
-          <img src="img/Google_Lens_2021.svg" alt="" />
-          <i></i>
-          <!-- buttons -->
+      <section class="googleSearch">
+        <div class="Gbody">
           <div>
-            <button>Google Search</button>
-            <button>i’m Feeling Lucky</button>
+            <img
+              src="img/googlelogo_light_color_272x92dp.png"
+              alt=""
+              width="200pxpx"
+            />
           </div>
-          <p>Google offered in: <a href="">العربية</a></p>
-        </form>
+          <!-- search -->
+          <form action="">
+            <div class="searchbar">
+              <!-- Icon bar -->
+              <a href="" class="searchIcon"
+                ><i class="fa-solid fa-magnifying-glass"></i
+              ></a>
+              <div class="Ibar">
+                <a href=""
+                  ><img
+                    src="img/google_icon.svg"
+                    alt=""
+                    width="24px"
+                    height="24px"
+                /></a>
+                <a href="">
+                  <img
+                    src="img/Google_Lens_2021.svg"
+                    alt=""
+                    width="16px"
+                    height="24px"
+                  />
+                </a>
+              </div>
+              <!-- search input -->
+              <input type="text" class="bar" />
+            </div>
+
+            <!-- buttons -->
+            <div>
+              <button class="buttons">Google Search</button>
+              <button class="buttons">i’m Feeling Lucky</button>
+            </div>
+            <div class="lang">
+              <p>Google offered in: <a href="">العربية</a></p>
+            </div>
+          </form>
+        </div>
       </section>
     </main>
     <!-- *******footer******* -->
     <footer>
       <!-- contry -->
       <div>
-       <p>Palestine</p>
+        <p>Palestine</p>
       </div>
       <hr />
-      <!-- about -->
-      <div>
-        <a href="http://" target="_blank" rel="noopener noreferrer">About</a>
-        <a href="http://" target="_blank" rel="noopener noreferrer"
-          >Advertising</a
-        >
-        <a href="http://" target="_blank" rel="noopener noreferrer">Business</a>
-        <a href="http://" target="_blank" rel="noopener noreferrer"
-          >How Search work</a
-        >
-      </div>
-      <!-- privacy -->
-      <div>
-        <a href="http://" target="_blank" rel="noopener noreferrer">Privacy</a>
-        <a href="http://" target="_blank" rel="noopener noreferrer">Terms</a>
-        <a href="http://" target="_blank" rel="noopener noreferrer">Settings</a>
+      <!-- btom footer-->
+      <div class="btom">
+        <!-- about -->
+        <div class="about">
+          <a href="http://" target="_blank">About</a>
+          <a href="http://" target="_blank">Advertising</a>
+          <a href="http://" target="_blank">Business</a>
+          <a href="http://" target="_blank">How Search work</a>
+        </div>
+        <!-- privacy -->
+        <div class="privacy">
+          <a href="http://" target="_blank">Privacy</a>
+          <a href="http://" target="_blank">Terms</a>
+          <a href="http://" target="_blank">Settings</a>
+        </div>
       </div>
     </footer>
   </body>
